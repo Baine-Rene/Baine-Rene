@@ -1750,8 +1750,11 @@ html.no-csstransitions .home-content__main {
   }
 
   .answer__text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
     font-size: 15px;
     padding: 1.8rem;
+
   }
   .services-header {
     display: inline-flex;
