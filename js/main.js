@@ -189,7 +189,7 @@
         });
     };
 
-
+//Services
     const questions = document.querySelectorAll(".question");
 
     questions.forEach((element) => {
@@ -197,7 +197,7 @@
         const nextBox = element.nextElementSibling;
         const icons = element.querySelector(".icon");
     
-        icons.style.transition = "0.5s linear";
+        icons.style.transition = "0.1s linear";
     
         if (nextBox.classList.contains("active")) {
           nextBox.classList.remove("active");
@@ -216,8 +216,7 @@
       });
     });
     
-   /* Masonry
-    * ---------------------------------------------------- */ 
+ //Masonry
     var clMasonryFolio = function () {
         
         var containerBricks = $('.masonry');
