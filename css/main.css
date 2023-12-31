@@ -1027,7 +1027,7 @@ form,
     min-height: 786px;
     background-image: url(../images/hero-bg.svg);
     background-repeat: no-repeat;
-    background-position: ;
+    background-color: black;
     position: relative;
     display: table;
 }
