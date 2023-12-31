@@ -1604,24 +1604,67 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* quote */
+/* quote Media Queries */
 @media only screen and (max-width: 1200px) {
+    .quote-img{
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 800px) {
+    .quote-img{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 700px) {
+    .quote-img{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .s-quote {
         padding-top: 12rem;
     }
+    .quote-img{
+        width: 100%;
+        height: 350px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: auto;
+    }
 }
 @media only screen and (max-width: 400px) {
+    .quote-img{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: auto;
+    }
 }
-
 
 
 /* Services */
@@ -2064,11 +2107,10 @@ html.no-csstransitions .home-content__main {
 
 /* Contact */
 .contact-header{
-    background-repeat: none;
     display: flex;
-    background-position: center;
     padding-top:10rem ;
-    padding-bottom:12rem ;
+    padding-bottom:auto ;
+    background-repeat: none;
     background-image: url("../images/Contact-Header-\ Image.png");
 }
 
@@ -2097,8 +2139,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
    background-color: black;
     background-repeat: no-repeat;
-
-    padding-bottom: 12rem;
+    padding-bottom: .5rem;
     color: rgba(255, 255, 255, 0.5);
 
 }
@@ -2221,15 +2262,9 @@ html.no-csstransitions .home-content__main {
 
 /* Responsive contact */
 @media only screen and (max-width: 1200px) {
-    .contact-content {
-        max-width: 900px;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
-    .contact-content {
-        max-width: 700px;
-    }
     .contact-primary, .contact-secondary {
         float: none;
         width: 100%;
