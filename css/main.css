@@ -8,6 +8,24 @@ html {
     }
 }
 
+@font-face {
+    font-family: 'outward';
+    src: url('../fonts/outward/outward-block-webfont.woff') format('truetype');
+   
+  }
+  
+@font-face {
+    font-family: 'Franchise';
+    src: url('../fonts/Franchise/Franchise-Free-Bold.ttf') format('truetype');
+   
+  }
+  
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/LeagueGothic-1.601/static/TTF/LeagueGothic-CondensedItalic.ttf') format('truetype');
+   
+  }
+
 html, body {
     height: 100%;
 }
@@ -32,7 +50,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: blueviolet;
+    color: #8a2be2;
 }
 
 a:hover, a:active {
@@ -520,9 +538,9 @@ form,
     color: #FFFFFF;
 }
 
-.display-2 {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 5.2rem;
+.services-title{
+    font-family: 'franchise', sans-serif;
+    font-size: 6.2rem;
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
@@ -530,6 +548,8 @@ form,
 
 .display-2--light {
     color: #FFFFFF;
+    font-size: 7.2rem;
+    font-family: 'franchise', sans-serif;
 }
 
 .subhead + .display-2 {
@@ -1040,6 +1060,7 @@ form,
 /* Home title */
 .header-title{
     display: flex;
+    
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -1070,6 +1091,7 @@ form,
     padding-top: 45px;
     padding-left: 100px;
     padding-right: 100px;
+    color: white;
  }
 
 
@@ -1591,12 +1613,18 @@ html.no-csstransitions .home-content__main {
 
 /* Quote */
 .s-quote {
-    padding-top: 16.2rem;
+    padding-top: 9.2rem;
     padding-bottom: 9rem;
     background-color: blueviolet;
-    color: #010507;
+ 
     position: relative;
     border-radius: 0px 0px 150px 150px;
+}
+.quote-title h1{
+    color: #ffffff;
+    font-size: 5.2rem;
+    font-family: 'franchise', sans-serif;
+
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -2091,27 +2119,47 @@ html.no-csstransitions .home-content__main {
 
 /* Responsive contact */
 @media only screen and (max-width: 1200px) {
+
+    
 }
 
 @media only screen and (max-width: 1000px) {
+
 }
 
 @media only screen and (max-width: 800px) {
+
+    
 }
 
 @media only screen and (max-width: 600px) {
+
+    
 }
 
 @media only screen and (max-width: 400px) {
+
+    
 }
 
 /* Contact */
 .contact-header{
     display: flex;
     padding-top:10rem ;
-    padding-bottom:auto ;
-    background-repeat: none;
-    background-image: url("../images/Contact-Header-\ Image.png");
+    padding-bottom:5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/Component\ 1.png");
+}
+.contact-header h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'franchise', sans-serif;
+}
+.contact-info h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'franchise', sans-serif;
 }
 
 .contact-header .container-fluid {
@@ -2123,11 +2171,6 @@ html.no-csstransitions .home-content__main {
 
 .contact-header .col-full {
     text-align: center;
-}
-
-.contact-header .col-full img {
-    max-width: 100%; /* Adjust as needed */
-    height: auto;
 }
 
 .contact-paragraph{
@@ -2171,9 +2214,6 @@ html.no-csstransitions .home-content__main {
     justify-content: center;
 }
 
- .cinfo {
-    margin-bottom: 4.8rem;
-}
 
 .contact-social {
     list-style: none;
@@ -2292,7 +2332,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-contact {
-        padding-top: 12rem;
+        padding-top: 0;
         padding-bottom: 0;
     }
     .contact__line {
