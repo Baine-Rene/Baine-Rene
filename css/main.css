@@ -8,24 +8,6 @@ html {
     }
 }
 
-@font-face {
-    font-family: 'outward';
-    src: url('../fonts/outward/outward-block-webfont.woff') format('truetype');
-   
-  }
-  
-@font-face {
-    font-family: 'Franchise';
-    src: url('../fonts/Franchise/Franchise-Free-Bold.ttf') format('truetype');
-   
-  }
-  
-@font-face {
-    font-family: 'LeagueGothic';
-    src: url('../fonts/LeagueGothic-1.601/static/TTF/LeagueGothic-CondensedItalic.ttf') format('truetype');
-   
-  }
-
 html, body {
     height: 100%;
 }
@@ -539,8 +521,8 @@ form,
 }
 
 .services-title{
-    font-family: 'franchise', sans-serif;
-    font-size: 6.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
@@ -548,12 +530,13 @@ form,
 
 .display-2--light {
     color: #FFFFFF;
-    font-size: 7.2rem;
+    font-size: 30px;
     font-family: 'franchise', sans-serif;
 }
 
 .subhead + .display-2 {
     margin-top: .6rem;
+    font-size: 30px;
 }
 
 .subhead {
@@ -1623,8 +1606,8 @@ html.no-csstransitions .home-content__main {
 }
 .quote-title h1{
     color: #ffffff;
-    font-size: 5.2rem;
-    font-family: 'franchise', sans-serif;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -2143,13 +2126,13 @@ html.no-csstransitions .home-content__main {
 }
 .contact-header h1{
     color: white;
-    font-size: 70px;
-    font-family: 'franchise', sans-serif;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .contact-info h1{
     color: white;
-    font-size: 50px;
-    font-family: 'franchise', sans-serif;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contact-header .container-fluid {
