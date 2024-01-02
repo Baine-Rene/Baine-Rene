@@ -1598,15 +1598,16 @@ html.no-csstransitions .home-content__main {
 
 /* Quote */
 .s-quote {
-    padding-top: 9.2rem;
-    padding-bottom: 9rem;
+    padding-top: 8.2rem;
+    padding-bottom: 4rem;
     background-color: blueviolet;
     position: relative;
     border-radius: 0px 0px 150px 150px;
 }
+
 .quote-title h1{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -1620,8 +1621,8 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1200px) {
     .quote-title h1{
         color: #ffffff;
-        
-        font-family: 'franchise', sans-serif;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     }
 }
@@ -1629,8 +1630,8 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 800px) {
     .quote-title h1{
         color: #ffffff;
-        
-        font-family: 'franchise', sans-serif;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     }
 }
@@ -1638,28 +1639,28 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 700px) {
     .quote-title h1{
         color: #ffffff;
-        
-        font-family: 'franchise', sans-serif;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     }
 }
 
 @media only screen and (max-width: 600px) {
     .s-quote {
-        padding-top: 12rem;
+        padding-top: 4rem;
     }
     .quote-title h1{
         color: #ffffff;
-        
-        font-family: 'franchise', sans-serif;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     }
 }
 @media only screen and (max-width: 400px) {
     .quote-title h1{
         color: #ffffff;
-        
-        font-family: 'franchise', sans-serif;
+        font-size: ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     }
 }
@@ -1686,7 +1687,7 @@ html.no-csstransitions .home-content__main {
       .box {
         width: 100%;
         margin: 22px 0;
-        padding: 25px 12px;
+        padding: 25px 18px;
         background: #ffffff;
         box-shadow: 0px 8px 0px 0 black;
         border-radius: 0px;
@@ -1707,7 +1708,7 @@ html.no-csstransitions .home-content__main {
           transition: all 0.5s linear;
   
           &.active {
-            max-height: 150px;
+            max-height: 475px;
           }
   
           &__text {
@@ -2119,7 +2120,7 @@ html.no-csstransitions .home-content__main {
 .contact-header{
     display: flex;
     padding-top:10rem ;
-    padding-bottom:5rem;
+    padding-bottom:10rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../images/Component\ 1.png");
@@ -2132,7 +2133,7 @@ html.no-csstransitions .home-content__main {
 .contact-info h1{
     color: white;
     font-size: 30px;
-    font-family: 'franchise', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contact-header .container-fluid {
@@ -2150,6 +2151,10 @@ html.no-csstransitions .home-content__main {
     padding-top: 25px;
     padding-right: 75px;
     padding-left: 75px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 9rem;
+    padding-right: 9rem;
 }
 
 .s-contact {
