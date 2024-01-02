@@ -1618,50 +1618,24 @@ html.no-csstransitions .home-content__main {
 
 /* quote Media Queries */
 @media only screen and (max-width: 1200px) {
-    .quote-title h1{
-        color: #ffffff;
-        font-size: 5.2rem;
-        font-family: 'franchise', sans-serif;
-    
-    }
-}
+
 
 @media only screen and (max-width: 800px) {
-    .quote-title h1{
-        color: #ffffff;
-        font-size: 5.2rem;
-        font-family: 'franchise', sans-serif;
-    
-    }
+
 }
 
 @media only screen and (max-width: 700px) {
-    .quote-title h1{
-        color: #ffffff;
-        font-size: 5.2rem;
-        font-family: 'franchise', sans-serif;
-    
-    }
+
 }
 
 @media only screen and (max-width: 600px) {
     .s-quote {
         padding-top: 12rem;
     }
-    .quote-title h1{
-        color: #ffffff;
-        font-size: 5.2rem;
-        font-family: 'franchise', sans-serif;
-    
-    }
+
 }
 @media only screen and (max-width: 400px) {
-    .quote-title h1{
-        color: #ffffff;
-        font-size: 5.2rem;
-        font-family: 'franchise', sans-serif;
-    
-    }
+
 }
 
 
