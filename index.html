@@ -1,465 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
+
 <head>
-    <title>Baine UI</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-<!-- Css -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-<!-- Script -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-<!-- Favicon -->
-<link rel="icon" href="./images/favicon.svg">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hiro Agency Landing Page</title>
+    <link rel="stylesheet" href="assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/js/loader.js"></script>
 </head>
 
-<body id="top">
+<body>
+    <div class="hiro-loader"></div>
+      <header class="hiro-header home-header" id="top">
+        <nav>
+            <div class="container">
+                <div class="hiro-nav">
+                    <a href="index.html" class="nav-brand">
+                        <img src="assets/images/logo.svg" alt="Hiro" class="logo">
+                        <img src="assets/images/logo_white.svg" alt="Hiro" class="logo-white">
+                    </a>
+                    <button class="hiro-nav-popup-toggle">
+                        <svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Hiro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hiro-agency" transform="translate(-964.000000, -37.000000)" fill="#FFFFFF">
+                                    <g id="Menu" transform="translate(964.000000, 37.000000)">
+                                        <g id="menu">
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="7.50795322" width="19.9609942" height="2.4951462"></rect>
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="14.9964327" width="19.9609942" height="2.4951462"></rect>
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="0.0194736842" width="19.9609942" height="2.4951462"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+        <div class="container wow fadeInUp">
+            <div id="hiroHeaderCarousel" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="01"><span>Remarkable Digital Products</span></h1>
+                                <p class="carousel-item-description" data-animation="animated fadeInRight">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for.</p>
+                                <a href="#!" class="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">READ MORE</a>
+                                <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">TWITTER</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">BEHANCE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/images/avatar.jpg" alt="Remarkable Digital Products" class="img-fluid w-100 rounded" width="372px">
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
-            </a>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="02"><span>Remarkable Digital Products</span></h1>
+                                <p class="carousel-item-description" data-animation="animated fadeInRight">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for.</p>
+                                <a href="#!" class="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">READ MORE</a>
+                                <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">TWITTER</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">BEHANCE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/images/avatar.jpg" alt="<span>Remarkable Digital Products</span>" class="img-fluid w-100 rounded" width="372px">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="03"><span>Remarkable Digital Products</span></h1>
+                                <p class="carousel-item-description" data-animation="animated fadeInRight">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for.</p>
+                                <a href="#!" class="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">READ MORE</a>
+                                <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">TWITTER</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">BEHANCE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/images/avatar.jpg" alt="Remarkable Digital Products" class="img-fluid w-100 rounded" width="372px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#hiroHeaderCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#hiroHeaderCarousel" data-slide-to="1"></li>
+                    <li data-target="#hiroHeaderCarousel" data-slide-to="2"></li>
+                </ol>
+            </div>
         </div>
+    </header>
 
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Baine UI</h3>
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="about">Works</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">contact</a></li>
-                </ul>
-
-                <p>Welcome to my corner of the digital world! I am a passionate designer dedicated to curating seamless user experiences. Through meticulous attention to detail, I transform ideas into captivating user interfaces that strike the perfect balance between aesthetics and functionality.</p>
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="https://twitter.com/rene_baine" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/baine_ui/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/rene-baine-b21043298/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Baine-Rene" target="_blank"><i class="fa fa-github"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav>  <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-    </header> <!-- end s-header -->
-
-
-<!-- Home -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-                <div>
-                   <div class="container header-title">
-                    <img class="img-title" src="./images/René Baine.svg" alt="">
-                   </div>
-
-                   <div class="container header-info">
-                      <p>Welcome to my corner of the digital world! I am a passionate designer dedicated to curating seamless user experiences. Through meticulous attention to detail, I transform ideas into captivating user interfaces that strike the perfect balance between aesthetics and functionality.</p>
+    <div class="hiro-nav-popup-modal">
+        <div class="hiro-nav-popup-modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 menu-wrapper">
+                        <ul class="nav hiro-main-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#works" class="nav-link">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 blog-posts text-white">
+                        <h5 class="popup-blog-headng">Blog</h5>
+                        <div class="media mb-4">
+                            <img src="assets/images/Blog_small2.jpg" alt="blog" width="86px" class="img-fluid mr-4">
+                            <div class="media-body align-self-end">
+                                <h5 class="popup-blog-post-title">Ambitious <br> designs</h5>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <img src="assets/images/Blog_small1.jpg" alt="blog" width="86px" class="img-fluid mr-4">
+                            <div class="media-body align-self-end">
+                                <h5 class="popup-blog-post-title">The Collection <br> Cover Archive</h5>
+                            </div>
+                        </div>
+                        <p><a href="blog.html" class="text-white link-hover-fx text-decoration-none" class="font-weight-medium">View more</a></p>
                     </div>
                 </div>
             </div>
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-
-            <div class="home-content__line"></div>
-
-        </div> 
-
-    </section> 
-
-<!-- Quote -->
-    <section class="s-quote">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="quote-title">
-                <h1>"BUILDING THE WORLD OF TOMORROW, TODAY: EMPOWERING DIGITAL EXPERIENCES"</h1>
+        </div>
+    </div>
+    
+    <section class="bg-primary hiro-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center wow fadeInUp">
+                    <h2 class="section-title mb-3">Digital Product Design</h2>
+                    <p class="section-text-ct">We take products through every stage necessary for their creation – Product Discovery, Business and User Research, UX/UI Design, Prototyping, Usability Testing, and future Product Improvements.</p>
+                </div>
+                <div class="col-md-6 wow fadeInUp">
+                    <img src="assets/images/img_3.png" class="w-100 mb-5" alt="Digital Product Design">
+                    <p class="section-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button class="hiro-btn-outline">VIEW MORE</button>
+                </div>
             </div>
         </div>
-    </section> 
-
-<!-- Services -->
-<section id='services' class="s-services">
-
-    <div class="row section-header has-bottom-sep" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead">Services</h3>
-            <h1 class="services-title">WHAT CAN I DO FOR YOU?</h1>
-        </div>
-    </div> <!-- end section-header -->
-
-    <div class="wrapper">
-        <ul class="container">
-          <li class="box">
-            <div class="question">
-              <div class="branding"><img src="./images/BRADING.svg" alt=""></div>
-              <i class="fa fa-plus icon"></i>
-            </div>
-            <div class="answer">
-              <p class="answer__text">Branding is a pivotal element for your clients as it serves as the visual and emotional identity of their business, creating a lasting impression on their target audience. In the dynamic and competitive landscape of today's digital world, a strong brand not only distinguishes your client's business from competitors but also establishes a unique and memorable presence in the minds of consumers.</p>
-
-            </div>
-          </li>
-          <li class="box">
-            <div class="question">
-                <div class="services-header"><img src="./images/WEB DEVELOPEMT.svg" alt=""></div>
-              <i class="fa fa-plus icon"></i>
-            </div>
-            <div class="answer">
-              <p class="answer__text">Web development is indispensable for your clients as it forms the technological backbone of their online presence, directly impacting user experience and business success. A well-structured and aesthetically pleasing website is not only a functional necessity but also a powerful tool for conveying your client's brand message and values. Customized web development allows for tailored solutions that align with your client's unique business requirements, ensuring optimal functionality and performance.</p>
-            </div>
-          </li>
-          <li class="box">
-            <div class="question">
-                <div class="services-header"><img src="./images/LOGO DESIGN.svg" alt=""></div>
-              <i class="fa fa-plus icon"></i>
-            </div>
-            <div class="answer">
-              <p class="answer__text">Logo design is an integral facet for your clients, serving as the visual embodiment of their brand and encapsulating its core identity. A meticulously crafted logo is a symbolic representation that distills your client's values, mission, and unique selling propositions into a visually compelling and memorable mark. It acts as the cornerstone of brand recognition, imprinting a distinctive image in the minds of their audience. </p>
-            </div>
-          </li>
-          <li class="box">
-            <div class="question">
-                <div class="branding"><img src="./images/GRAPHIC DESIGN.svg" alt=""></div>
-                <i class="fa fa-plus icon"></i>
-            </div>
-            <div class="answer">
-              <p class="answer__text">Graphic design plays a pivotal role for your clients by transforming concepts and ideas into visually compelling assets that communicate their brand story effectively. Whether in the form of marketing collateral, social media graphics, or promotional materials, graphic design is the artistic lens through which your client's brand identity comes to life. It involves a harmonious blend of typography, color theory, imagery, and layout to create visually engaging materials that resonate with the target audience. </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-</section> <!-- end s-services -->
-
-
-<!-- Works -->
-    <section id='works' class="s-works">
-
-        <div class="intro-wrap">
-                
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <h3 class="subhead">Recent Works</h3>
-                    <h1 class="display-2 display-2--light">HERE ARE SOME DESIGNS THAT I HAVE MADE RECENTLY</h1>
-                </div>
-            </div> <!-- end section-header -->
-
-        </div> <!-- end intro-wrap -->
-
-        <div class="row works-content">
-            <div class="col-full masonry-wrap">
-                <div class="masonry">
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                            <div class="item-folio__thumb">
-                                <a href="./images/portfolio/Last of Us (p2) - 1.png" class="thumb-link" title="The Last of Us" data-size="1080x1080">
-                                    <img src="./images/portfolio/Last of Us (p2) - 1.png" 
-                                         srcset="./images/portfolio/Last of Us (p2) - 1.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Last of Us Part II
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Poster
-                                </p>
-                            </div>
-    
-                            <a href="https://www.instagram.com/p/C1Z1iUPNmq3/?img_index=1" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-        
-                            <div class="item-folio__thumb">
-                                <a href="./images/portfolio/HARKEN.png" class="thumb-link" title="HARKEN" data-size="1080x1080">
-                                    <img src="images/portfolio/HARKEN.png" 
-                                         srcset="./images/portfolio/HARKEN.png" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    HARKEN
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Poster
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="./images/portfolio/EASEL OILS.png" class="thumb-link" title="EASEL OILS" data-size="1080x1080">
-                                    <img src="images/portfolio/EASEL OILS.png" 
-                                         srcset="./images/portfolio/EASEL OILS.png" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    EASEL OILS
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Poster
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="./images/portfolio/LUNAR VISTA.png" class="thumb-link" title="LUNAR VISTA" data-size="1080x1080">
-                                    <img src="images/portfolio/LUNAR VISTA.png" 
-                                         srcset="./images/portfolio/LUNAR VISTA.png" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Lunar Vista
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Poater
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="./images/portfolio/MEADOWSIDE.png" class="thumb-link" title="MEADOWSIDE GARDENS" data-size="1080x1080">
-                                    <img src="images/portfolio/MEADOWSIDE.png" 
-                                         srcset="./images/portfolio/MEADOWSIDE.png" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Meadwside Gardens
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="./images/portfolio/FURNITURE.png" class="thumb-link" title="FURNITURE" data-size="1080x1080">
-                                    <img src="images/portfolio/FURNITURE.png" 
-                                         srcset="./images/portfolio/FURNITURE.png" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Palmeira
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-                </div>
-            </div> 
-        </div> <!-- end works-content -->
     </section>
 
-<!-- Contact -->
-<section id="contact" class="s-contact">
-    <div class="contact-header container-fluid">
-        <div class="col-full">
-            <h1 data-aos="fade-up">BUILD YOUR PORFOLIO TODAY</h1>
-            <p class="contact-paragraph" data-aos="fade-up">
-                A portfolio is not just a collection of images; it's a narrative that unfolds your company's journey and showcases your expertise. Through carefully selected case studies, projects, and success stories, we can highlight the unique value proposition that sets your business apart from the competition.
-            </p>
+    <section class="hiro-section" id="services">
+        <div class="container">
+            <div class="service-section">
+                <h2 class="section-title career-section-title">Our Services</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp">
+                        <h6 class="service-category-title">Strategy</h6>
+                        <ul class="service-list list-group list-group-flush">
+                            <li class="list-group-item">UI & UX design</li>
+                            <li class="list-group-item">Graphic Design & identity</li>
+                            <li class="list-group-item">Video Production</li>
+                            <li class="list-group-item">Market Analysis</li>
+                            <li class="list-group-item">Deep Campaign Strategy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp">
+                        <h6 class="service-category-title">Design</h6>
+                        <ul class="service-list list-group list-group-flush">
+                            <li class="list-group-item">UI & UX design</li>
+                            <li class="list-group-item">Graphic Design & identity</li>
+                            <li class="list-group-item">Video Production</li>
+                            <li class="list-group-item">Market Analysis</li>
+                            <li class="list-group-item">Deep Campaign Strategy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp">
+                        <h6 class="service-category-title">Development</h6>
+                        <ul class="service-list list-group list-group-flush">
+                            <li class="list-group-item">UI & UX design</li>
+                            <li class="list-group-item">Graphic Design & identity</li>
+                            <li class="list-group-item">Video Production</li>
+                            <li class="list-group-item">Market Analysis</li>
+                            <li class="list-group-item">Deep Campaign Strategy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container-fluid contact-content">
-        <div class="contact-info">
-
-            <div class="contact-info">
-                <a href="mailto:baineux.ui@gmail.com" class="mail">
-                <h1>baineux.ui@gmail.com</h1>
-            </a>
+    <section class="projects-section hiro-section" id="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6wow fadeInUp">
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works4.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works2.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                </div>
+                <div class="col-md-6 project-column-indented">
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works3.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works1.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="#!" class="load-more-link">VIEW ALL PROJECTS</a>
+                </div>
             </div>
-
-            <div class="contact-info">
-                <ul class="contact-social">
-                    <li>
-                        <a href="https://www.instagram.com/baine_ui/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/rene_baine" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/rene-baine-b21043298/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Baine-Rene" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    </li>
-                </ul> <!-- end contact-social -->
-            </div>
-
         </div>
-    </div>
-</section> <!-- end s-contact -->
+    </section>
 
+    <section class="team-section hiro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 wow fadeInUp">
+                    <h2 class="section-title">Meet <br> The Team</h2>
+                    <p class="section-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <div>
+                        <a class="carousel-control-prev" href="#hiroTeamCarousel" role="button" data-slide="prev">
+                            <img src="assets/images/arrow_left.png" alt="left arrow" width="20px">
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#hiroTeamCarousel" role="button" data-slide="next">
+                            <img src="assets/images/Arrow_right.png" alt="right arrow" width="20px">
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
 
+                <div class="col-md-7 wow fadeInRight">
+                    <div id="hiroTeamCarousel" class="hiro-team-carousel carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="team-card" data-animation="animated flipInY">
+                                            <img src="assets/images/img_5.png" alt="Paulina Gayoso" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Paulina Gayoso</h6>
+                                                <p class="team-member-title">Project Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-<!-- Photoswipe -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+                                    <div class="col-sm-6">
+                                        <div class="team-card featured" data-animation="animated flipInY">
+                                            <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Edwards</h6>
+                                                <p class="team-member-title">CTO, Co-Founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="team-card" data-animation="animated flipInY">
+                                            <img src="assets/images/img_5.png" alt="Paulina Gayoso" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Paulina Gayoso</h6>
+                                                <p class="team-meber-title">Project Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
+                                    <div class="col-sm-6">
+                                        <div class="team-card featured" data-animation="animated flipInY">
+                                            <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Edwards</h6>
+                                                <p class="team-meber-title">CTO, Co-Founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="team-card" data-animation="animated flipInY">
+                                            <img src="assets/images/img_5.png" alt="Paulina Gayoso" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Paulina Gayoso</h6>
+                                                <p class="team-meber-title">Project Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6" data-animation="animated flipInY">
+                                        <div class="team-card featured">
+                                            <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Edwards</h6>
+                                                <p class="team-meber-title">CTO, Co-Founder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="career-section hiro-section bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title wow fadeInLeft">
+                        Career <br> Work with us
+                    </h2>
+                </div>
+                <div class="col-md-6 wow fadeInRight">
+                    <p class="section-text-ct mb-5">Our work transforms how customers experience your business – creating distinction, shifting perceptions and driving growth.</p>
+                    <button class="hiro-btn-outline">VIEW MORE</button>
                 </div>
             </div>
-
         </div>
+    </section>
 
-    </div> <!-- end photoSwipe background -->
+    <section class="contact-section hiro-section">
+        <div class="container wow fadeInUp">
+            <h6 class="font-weight-semibold mb-4 mb-md-0">At Explose, it’s always storytelling time. Swing by & share yours.</h6>
+            <h2 class="section-title">Let’s talk</h2>
+            <div class="contact-address">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="font-weight-medium">9010 Varna, Bulgaria, <br> Breeze Borough, <br> Saint Nicholas, 26</p>
+                    </div>
+                    <div class="col-md-5 mb-4 mb-md-0">
+                        <p class="font-weight-medium">UK: +44 567 637 0000 <br> hey@costomarl.com</p>
+                        <ul class="nav contact-social-links">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="assets/images/twitter@1x.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="assets/images/linkedin@1x.svg" alt="linkedin">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="assets/images/facebook@1x.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="assets/images/behance@1x.svg" alt="behance">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="assets/images/medium@1x.svg" alt="medium">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 d-flex align-items-end">
+                        <a href="#top" class="go-top-btn">
+                            <img src="assets/images/arrow_up@1x.svg" alt="arrow up">
+                            <span class="sr-only">Go to top</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="hiro-footer wow fadeInUp">
+        <div class="container d-flex flex-wrap justify-content-lg-between align-items-center">
+            <p class="mb-0 footer-text">© <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a> 2020. All rights reserved.</p>
+            <nav class="footer-nav nav">
+                <a href="#!" class="nav-link">Terms and Conditions</a>
+                <a href="#!" class="nav-link">Privacy Policy</a>
+                <a href="#!" class="nav-link">Cookie Policy</a>
+            </nav>
+        </div>
+    </footer>
 
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="assets/vendors/wowjs/wow.min.js"></script>
+    <script src="assets/vendors/popper.js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+
 </html>
