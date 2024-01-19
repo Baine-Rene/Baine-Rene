@@ -7239,7 +7239,9 @@ html {
     position: fixed;
     width: 16px;
     height: 16px;
+    z-index: 10;
     background-color: #44d7b6; /* Change color as needed */
+    border: #0056b3;
     border-radius: 50%;
     pointer-events: none;
     transition: transform 0.1s ease-out;
@@ -7388,3 +7390,16 @@ color: white;
   font-size: 50px;
 }
 
+/* Contact */
+#contact h1{
+  font-family: 'germania-one';
+  font-size: 70px;
+  color: white;
+}
+#contact a{
+  text-decoration: none;
+}
+#contact a:hover{
+  text-decoration: none;
+  color:#44d7b6 ;
+}
