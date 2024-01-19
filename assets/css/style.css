@@ -32,7 +32,6 @@
 
 
 html {
-  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -44,7 +43,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #ffffff;
   text-align: left;
   background-color: #000000; }
 
@@ -908,7 +906,8 @@ pre {
     max-width: 25%; }
   .col-lg-4 {
     flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    max-width: 66.66667%;;
+   }
   .col-lg-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
@@ -6447,20 +6446,6 @@ button.bg-dark:focus {
     margin-left: auto !important; } }
 
 @media (min-width: 992px) {
-  .m-lg-0 {
-    margin: 0 !important; }
-  .mt-lg-0,
-  .my-lg-0 {
-    margin-top: 0 !important; }
-  .mr-lg-0,
-  .mx-lg-0 {
-    margin-right: 0 !important; }
-  .mb-lg-0,
-  .my-lg-0 {
-    margin-bottom: 0 !important; }
-  .ml-lg-0,
-  .mx-lg-0 {
-    margin-left: 0 !important; }
   .m-lg-1 {
     margin: 0.25rem !important; }
   .mt-lg-1,
@@ -7250,12 +7235,23 @@ a.text-dark:hover, a.text-dark:focus {
 html {
   scroll-behavior: smooth; }
 
+  #cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background-color: #44d7b6; /* Change color as needed */
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease-out;
+    transform-origin: center;
+    user-select: none;
+  }
 /* Nav Bar */
 .baine-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
   z-index: 1001; 
 }
@@ -7314,26 +7310,80 @@ color: white;
   /* Header */
 #header h1{
   font-family: 'germania-one';
-  font-size: 110px;
+  font-size: 70px;
   color: #44d7b6;
+}
+#header p{
+  font-size: 15px;
+  line-height: 1.35;
 }
 #header .btn-primary{
   font-family: 'germania-one';
 }
-header h1{
-  font-family: 'germania-one';
-  font-size: 30px;
-}
+
 
 /* Media Queries */
 @media only screen and (max-width: 767px) {
   #header h1{
     font-family: 'germania-one';
-    font-size: 50px;
+    font-size: 55px;
     color: #44d7b6;
+  }
+  #header p{
+    font-size: 12.5px;
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #header h1{
+    font-family: 'germania-one';
+    font-size: 80px;
+    color: #44d7b6;
+  }
+  #header p{
+    font-size: 15px;
+  }
+}
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #header h1{
+    font-family: 'germania-one';
+    font-size: 90px;
+    color: #44d7b6;
+  }
+  #header p{
+    font-size: 15px;
+  }
+}
 
+@media only screen and (min-width: 1200px) {
+  #header h1{
+    font-family: 'germania-one';
+    font-size: 100px;
+    color: #44d7b6;
+  }
+  #header p{
+    font-size: 15px;
+  }
+}
 
+/* Projects */
+.projects-title{
+  background-color: white;
+}
+.projects-title h2{
+  background-color: white;
+  font-family: 'germania-one';
+  font-size: 90px;
+}
+.projects-title p{
+  font-size: 14px;
+  line-height: 1.35;
+}
+#projects{
+  background-color: white;
+}
+#projects h2{
+  font-family: 'germania-one';
+  font-size: 50px;
+}
