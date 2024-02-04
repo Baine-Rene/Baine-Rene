@@ -49,9 +49,7 @@ html{
 .items-center{
   align-items: center;
 }
-.shrink-0{
-  flex-shrink: 0;
-}
+
 .nav-link{
   color: #adadad;
   font-family: 'inter'; 
