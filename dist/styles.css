@@ -4,7 +4,7 @@ body{
 /* Fonts */
 @font-face {
   font-family: 'inter'; 
-  src: url('../Fonts/inter/Inter-ExtraBold.ttf')
+  src: url('../Fonts/inter/Inter-Regular.ttf')
 }
 @font-face {
   font-family: 'germania'; 
@@ -162,7 +162,7 @@ border-radius: 8px;
   .blog-post-archive .blog-post-excerpt {
     font-family: 'inter';
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.71;
     color: #adadad;
     margin-bottom: 13px; 
