@@ -7,7 +7,7 @@
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Library  -->
 
@@ -19,72 +19,116 @@
     <link rel="stylesheet" href="./Assets/animate.css/animate.min.css">
     <link rel="stylesheet" href="./Assets/Bootstrap/css/bootstrap.min.css">
     <link href="dist/hamburgers.css" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/blog.css">
+    <link rel="stylesheet" href="./dist/about.css">
    
 
 </head>
 <body>
     <!-- Navigation -->
     <header class="relative">
-        <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
-            <a class="navbar-brand shrink-0" href="index.html">
-              <img src="./img/favicon.svg" width="50" height="50" alt="Logo">
-            </a>
-            <button class="hamburger hamburger--spin navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
-              <span class="hamburger-box">
-                <span class="hamburger-inner">
-                </span>
+      <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
+          <a class="navbar-brand shrink-0" href="index.html">
+            <img src="./img/favicon.svg" width="50" height="50" alt="Logo">
+          </a>
+          <button class="hamburger hamburger--spin navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
+            <span class="hamburger-box">
+              <span class="hamburger-inner">
               </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <ul class="navbar-nav d-flex mx-auto  gap-1">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./blog.html">Blog</a>
-                </li>
-              </ul>
-              <a class=" btn navbar-form" href="" target="_blank">Contact <span class=""></span></a>
-            </div>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav d-flex mx-auto  gap-1">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+            </ul>
+            <a class=" btn navbar-form" href="" target="_blank">Contact <span class=""></span></a>
           </div>
-        </nav>
-      </header>
-
-      <main class="blog-standard">
-        <section class="blog-standard-post mx-auto">
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-12">
-                        <article class="blog-post wow fadeInUp">
-                            <img src="./img/Blog/Blog-Standard(1).svg" alt="blog post" class="post-thumbnail">
-                            <p class="post-date">January 29, 2020</p>
-                            <h4 class="post-title">The incredible Digital artworks by the incredible Sam Spratt.</h4>
-                            <p class="post-excerpt">Sam is a New York based artist working out of his studio in the city. Sam’s pursuit is to make human art with human values about our stumbles, realizations, and fight to engage in a shared reality. </p>
-                            <a href="./SamSpratt.html" class="btn">Read More</a>
-                        </article>
-                        <article class="blog-post wow fadeInUp">
-                            <img src="./img/Blog/Blog-Standard(2).svg" alt="blog post" class="post-thumbnail">
-                            <p class="post-date">January 29, 2020</p>
-                            <h4 class="post-title">Why should you Listen to Lofi Hip-Hop ?</h4>
-                            <p class="post-excerpt">Lo-fi hip-hop originated within the underground beatmaking hip-hop scene of the 2000s, particularly after the advent of Roland SP-303 and Roland SP-404 samplers, each of which featured the "lo-fi" effect as a separate button.</p>
-                            <a href="./Lofi-Girl.html" class="btn">Read More</a>
-                        </article>
-                        <article class="blog-post wow fadeInUp">
-                            <img src="./img/Blog/Blog-Standard(3).svg" alt="blog post" class="post-thumbnail">
-                            <p class="post-date">January 29, 2020</p>
-                            <h4 class="post-title">Nujabes, The "godfather of Lofi hip hop"</h4>
-                            <p class="post-excerpt">Jun Seba, better known by his stage name Nujabes, was a Japanese record producer, audio engineer, DJ, composer and arranger best known for his atmospheric instrumental mixes sampling from hip hop, soul, and jazz.</p>
-                            <a href="./Lofi-Girl.html" class="btn">Read More</a>
-                        </article>
-                    </div>
-                </div>
         </div>
-    </section>
-    </main>
+      </nav>
+    </header>
+
+<!-- Content Section -->
+<!-- Blog Posts -->
+<main class="about-page-wrapper" >
+  <section class="about mx-auto">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 about-post-archive">
+        <article class="media about-post wow fadeInUp">
+         <img src="./img/about/Profile_2.svg" alt="blog post" class="about-post-thumbnail">
+        </article>
+      </div>
+           <div class="media-body col-lg-9">
+          <h5 class="about-title">About Me</h5>
+          <p class="about-post-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid voluptas, tenetur dolores eum odio optio, sint neque qui quasi harum nobis accusamus, itaque nisi.</p>
+      </div>
+      
+  </div>
+  </div>
+  </section>
+
+  <section class="connect mx-auto">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-3 about-post-archive">
+        <article class="media about-post wow fadeInUp">
+         <h6 class="connect-title">Connect</h6>
+        </article>
+        </div>
+        <div class="col-lg-9 media-body">
+          <p class="connect-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid voluptas, tenetur dolores eum odio optio, sint neque qui quasi harum nobis accusamus, itaque nisi.</p>
+
+           <!-- New columns and rows start here -->
+           <div class="row">
+    <div class="col-lg-5 mt-2 btn">
+      <div class="social-bg py-3 ">
+        <a href=""><i class="bi bi-envelope-fill px-2"></i>Email</a>
+          
+      </div>
+  </div>
+  <div class="col-lg-5 mt-2 btn ">
+      <div class="social-bg py-3 ">
+        <a href=""><i class="bi bi-instagram px-2"></i> Instagram</a>
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-5 mt-2 btn">
+      <div class="social-bg py-3">
+        <a href=""><i class="bi bi-github px-2"></i> Github</a>
+      </div>
+  </div>
+  <div class="col-lg-5 mt-2 btn">
+      <div class="social-bg py-3">   
+        <a href=""><i class="bi bi-twitter-x px-2"></i>Twitter</a>
+      </div>
+  </div>
+</div>
+   </div>
+  </div>
+ 
+  <div class="row pb-5">
+    <div class="col-lg-3 about-post-archive">
+    <article class="media about-post wow fadeInUp">
+     <h6 class="connect-title">Work</h6>
+    </article>
+    </div>
+    <div class="col-lg-9 media-body">
+      <p class="connect-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid voluptas, tenetur dolores eum odio optio, sint neque qui quasi harum nobis accusamus, itaque nisi.</p>
+  </div>
+</div>
+  </div>
+</div>
+  </section>
+  </main>
 
 <!-- JavaScript Libraries -->
 <script src="./Assets/jquery/jquery.js"></script>

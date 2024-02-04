@@ -1,0 +1,228 @@
+body{
+    background-color: #111111;
+  }
+  /* Fonts */
+  @font-face {
+    font-family: 'inter'; 
+    src: url('../Fonts/inter/Inter-Regular.ttf')
+  }
+  @font-face {
+    font-family: 'germania'; 
+    src: url('../fonts/germania-one/GermaniaOne-Regular.ttf')
+  }
+  
+  
+  a{
+      text-decoration:none;
+      color: white;
+  
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar */
+  .navbar{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    max-width: 700px;
+  
+    background-color: #111111;
+  }
+   .navbar-toggler{
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .justify-between{
+    justify-content: space-between;
+  }
+  .navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .items-center{
+    align-items: center;
+  }
+  .shrink-0{
+    flex-shrink: 0;
+  }
+  .nav-link{
+    color: #adadad;
+    font-family: 'inter'; 
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .nav-link:hover{
+   color: #fff;
+  }
+  .navbar-form{
+    color: white;
+    font-family: 'germania'; 
+  }
+  .navbar .btn{
+    transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
+    transition:all 4.s ease-in-out;
+  }
+  .navbar .btn{
+    background-color: white;
+    color: #000000;
+  }
+  
+   .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 768px) {
+  }
+  
+  @media only screen and (max-width: 480px) {
+  }
+  /* End of NavBar */
+
+  
+/* Content Section */
+.content{
+    max-width: 700px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 110px;
+  }
+  .content h2{
+    color: white;
+    font-family: 'germania';
+    font-size: 60px;
+  }
+  
+  .content p{
+    color: #fff;
+    font-family: 'inter'; 
+    font-size: 15px;
+  }
+  .content .flex-row{
+    flex-direction: row;
+  }
+  .content a{
+    color: #adadad;
+  }
+  .bi{
+    font-size: 13px;
+  }
+
+  /* About Section */
+.about{
+    max-width: 700px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 85px;
+  }
+  .media{
+    display: flex;
+    align-items: start;
+  }
+  .about-post-archive .about-post-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #312c2c;
+    margin-bottom: 14px; 
+  }
+  .about-title{
+    font-family: 'germania';
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  .about-post-archive img{
+  border-radius: 20px;
+  }
+  .about-post-archive .about-post {
+    margin-bottom: 73px;
+    max-width: 570px; }
+    @media (max-width: 767px) {
+      .about-post-archive .about-post {
+        display: block; } }
+    .about-post-archive .about-post-thumbnail {
+      width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      margin-bottom: 25px; }
+      @media (min-width: 768px) {
+        .about-post-archive .about-post-thumbnail {
+          width: 168px;
+          height: 141px;
+          margin-right: 25px;
+          align-self: center; } }
+    .about-post-archive .about-post-title {
+      font-family: 'inter';
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #ffffff;
+      margin-bottom: 14px; 
+    }
+ .about-post-excerpt {
+      font-family: 'inter';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.71;
+      color: #adadad;
+      margin-bottom: 13px; 
+    }
+    .about-post-archive  .about-post-link {
+      font-size: 15px;
+      font-family: 'inter';
+      font-weight: 700;
+      color: #ffffff; 
+    }
+    .about-post-archive .btn{
+      background-color: #312c2c;
+    }
+
+    /* Connect */
+    .connect{
+        max-width: 700px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 15px;
+    }
+    .connect-excerpt{
+        font-family: 'inter';
+        font-weight: 600;
+        font-size: 14px;
+        color: #eeeeee;
+    }
+    .connect-title{
+        font-family: 'inter';
+        font-weight: 600;
+        font-size: 18px;
+        color: #adadad;
+    }
+
+    /* Social */
+    .social-bg{
+        border: 1px solid #adadad;
+        border-radius: 10px;
+        align-items: left;
+        justify-content: left;
+        
+    }
+    .social-bg a{
+        font-family: 'inter';
+        font-weight: 500;
+        
+    }
+    .btn a:hover{
+        font-family: 'inter';
+        font-weight: 500;
+        color: #adadad;
+    }
+    .social-bg i{
+        font-size: 18px;
+        font-weight: 500;
+    }

@@ -109,16 +109,16 @@ body{
     .blog-standard .blog-post .post-title {
       font-size: 25px;
       font-family: 'inter';
-      font-weight: 500;
+      font-weight: 700;
       line-height: 1.4;
       margin-bottom: 9px;
       color: #fff;
     
     }
     .blog-standard .blog-post .post-excerpt {
-      font-size: 14px;
+      font-size: 15.5px;
       font-family: 'inter';
-      font-weight: 300;
+      font-weight: 500;
       line-height: 1.71;
       margin-bottom: 15px; 
       color: #fff;
@@ -155,25 +155,16 @@ body{
 
 .blog-post-single .post-title {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
     color: #fff;
     margin-bottom: 30px;
-    margin-top: 30px; 
+    margin-top: 30px;
+    font-family: 'inter'; 
 }
 .post-date{
     color: #fff;
     font-family: 'inter';
     font-weight: 600;
-}
-.post-content h4, h5{
-    color: #fff;
-    font-family: 'inter';
-    font-weight: 600;
-}
-.post-content p{
-    color: #fff;
-    font-family: 'inter';
-    font-weight: ;
 }
   .blog-post-single .blog-post-wrapper .post-header .post-featured-image {
     width: 100%;
@@ -183,15 +174,21 @@ body{
     font-size: 14px;
     line-height: 2.86; }
   
-  .blog-post-single .blog-post-wrapper .post-content h4 {
-    margin-bottom: 16px; }
+  .blog-post-single .blog-post-wrapper .post-content h4, h5 {
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: 'inter';
+    font-weight: 600;
+ }
   
   .blog-post-single .blog-post-wrapper .post-content p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.71;
     margin-bottom: 16px;
     color: #fff;
+    font-family: 'inter';
+    font-weight: 400;
  }
   
 /* Blockquote */
@@ -225,8 +222,40 @@ body{
 .all-posts, a{
     font-family: 'inter';
     font-weight: 700;
-    color: #adadad;
+    color: white;
+   
 }
 .all-post, a:hover{
-  color: white;
+  color: #adadad;
+}
+.all-post .btn::after {
+  content: "\2192";
+  margin-left: 6px;
+  transition: transform 0.4s ease;
+  display: inline-block; 
+}
+.all-posts .btn:hover {
+  text-decoration: none; }
+  .all-posts .btn:hover::after {
+    transform: translateX(-5px); }
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .blog-post-single .post-title {
+        font-size: 34px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-top: 30px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .blog-post-single .post-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-top: 30px; 
+    }
 }

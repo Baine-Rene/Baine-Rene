@@ -118,7 +118,7 @@ html{
   max-width: 700px;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 90px;
+  padding-top: 85px;
 }
 .media{
   display: flex;
@@ -130,6 +130,11 @@ html{
   line-height: 1.25;
   color: #312c2c;
   margin-bottom: 14px; 
+}
+.blog-title{
+  font-family: 'inter';
+  font-weight: 600;
+  color: #ffffff;
 }
 .blog-post-archive img{
 border-radius: 8px;
