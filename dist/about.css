@@ -21,15 +21,17 @@ body{
     scroll-behavior: smooth;
   }
   
-  /* Navbar */
-  .navbar{
+/* Navbar */
+.navbar{
     padding-left: 24px;
     padding-right: 24px;
     padding-top: .75rem;
     padding-bottom: .75rem;
     max-width: 700px;
-  
     background-color: #111111;
+  }
+  .navbar-brand{
+    padding-left: 14px;
   }
    .navbar-toggler{
     outline: none;
@@ -47,9 +49,7 @@ body{
   .items-center{
     align-items: center;
   }
-  .shrink-0{
-    flex-shrink: 0;
-  }
+  
   .nav-link{
     color: #adadad;
     font-family: 'inter'; 
@@ -79,11 +79,22 @@ body{
   
   /* Media queries */
   @media only screen and (max-width: 768px) {
+    .nav-link{
+      padding-left: 14px;
+    }
+    .navbar-form{
+      margin-left: 12px;
+    }
   }
   
   @media only screen and (max-width: 480px) {
+    .nav-link{
+      padding-left: 14px;
+    }
+    .navbar-form{
+      margin-left: 12px;
+    }
   }
-  /* End of NavBar */
 
   
 /* Content Section */
@@ -125,13 +136,7 @@ body{
     display: flex;
     align-items: start;
   }
-  .about-post-archive .about-post-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.25;
-    color: #312c2c;
-    margin-bottom: 14px; 
-  }
+
   .about-title{
     font-family: 'germania';
     font-weight: 600;
@@ -142,8 +147,9 @@ body{
   border-radius: 20px;
   }
   .about-post-archive .about-post {
-    margin-bottom: 73px;
-    max-width: 570px; }
+    margin-bottom: 30px;
+    max-width: 570px; 
+}
     @media (max-width: 767px) {
       .about-post-archive .about-post {
         display: block; } }
@@ -169,7 +175,7 @@ body{
  .about-post-excerpt {
       font-family: 'inter';
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 600;
       line-height: 1.71;
       color: #adadad;
       margin-bottom: 13px; 
@@ -195,13 +201,13 @@ body{
         font-family: 'inter';
         font-weight: 600;
         font-size: 14px;
-        color: #eeeeee;
+        color: #adadad;
     }
     .connect-title{
-        font-family: 'inter';
-        font-weight: 600;
+        font-family: 'germania';
+        font-weight: 400;
         font-size: 18px;
-        color: #adadad;
+        color: white;
     }
 
     /* Social */

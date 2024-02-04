@@ -21,15 +21,17 @@ body{
     scroll-behavior: smooth;
   }
   
-  /* Navbar */
-  .navbar{
+/* Navbar */
+.navbar{
     padding-left: 24px;
     padding-right: 24px;
     padding-top: .75rem;
     padding-bottom: .75rem;
     max-width: 700px;
-  
     background-color: #111111;
+  }
+  .navbar-brand{
+    padding-left: 14px;
   }
    .navbar-toggler{
     outline: none;
@@ -47,9 +49,7 @@ body{
   .items-center{
     align-items: center;
   }
-  .shrink-0{
-    flex-shrink: 0;
-  }
+  
   .nav-link{
     color: #adadad;
     font-family: 'inter'; 
@@ -79,11 +79,23 @@ body{
   
   /* Media queries */
   @media only screen and (max-width: 768px) {
+    .nav-link{
+      padding-left: 14px;
+    }
+    .navbar-form{
+      margin-left: 12px;
+    }
   }
   
   @media only screen and (max-width: 480px) {
+    .nav-link{
+      padding-left: 14px;
+    }
+    .navbar-form{
+      margin-left: 12px;
+    }
   }
-  /* End of NavBar */
+  
   
   /* Content Section */
   .content{

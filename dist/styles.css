@@ -185,11 +185,19 @@ border-radius: 8px;
     margin-bottom: 13px; 
   }
   .blog-post-archive  .blog-post-link {
-    font-size: 15px;
-    font-family: 'inter';
-    font-weight: 700;
-    color: #ffffff; 
+    font-size: 14px;
+      font-weight: 600;
+      background-color:white;
+      color:#000000; 
+      font-family: 'inter';
   }
-  .blog-post-archive .btn{
-    background-color: #312c2c;
-  }
+
+  .blog-post-archive .btn::after {
+    content: "\2192";
+    margin-left: 6px;
+    transition: transform 0.4s ease;
+    display: inline-block; }
+    .blog-post-archive .btn:hover {
+    text-decoration: none; }
+    .blog-post-archive .btn:hover::after {
+      transform: translateX(5px); }
