@@ -23,78 +23,78 @@ body{
   
 /* Navbar */
 .navbar{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    max-width: 700px;
-    background-color: #111111;
-  }
-  .navbar-brand{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  max-width: 700px;
+  background-color: #111111;
+}
+.navbar-brand{
+  padding-left: 14px;
+}
+ .navbar-toggler{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.items-center{
+  align-items: center;
+}
+
+.nav-link{
+  color: #adadad;
+  font-family: 'inter'; 
+  font-size: 17px;
+  font-weight: 700;
+}
+.nav-link:hover{
+ color: #fff;
+}
+.navbar-form{
+  color: white;
+  font-family: 'germania'; 
+}
+.navbar .btn{
+  transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
+  transition:all 4.s ease-in-out;
+}
+.navbar .btn{
+  background-color: white;
+  color: #000000;
+}
+
+ .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .nav-link{
     padding-left: 14px;
   }
-   .navbar-toggler{
-    outline: none;
-    border: none;
-    box-shadow: none;
+  .navbar-form{
+    margin-left: 12px;
   }
-  .justify-between{
-    justify-content: space-between;
-  }
-  .navbar ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .items-center{
-    align-items: center;
-  }
-  
+}
+
+@media only screen and (max-width: 480px) {
   .nav-link{
-    color: #adadad;
-    font-family: 'inter'; 
-    font-size: 17px;
-    font-weight: 700;
-  }
-  .nav-link:hover{
-   color: #fff;
+    padding-left: 14px;
   }
   .navbar-form{
-    color: white;
-    font-family: 'germania'; 
+    margin-left: 12px;
   }
-  .navbar .btn{
-    transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
-    transition:all 4.s ease-in-out;
-  }
-  .navbar .btn{
-    background-color: white;
-    color: #000000;
-  }
-  
-   .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  
-  /* Media queries */
-  @media only screen and (max-width: 768px) {
-    .nav-link{
-      padding-left: 14px;
-    }
-    .navbar-form{
-      margin-left: 12px;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .nav-link{
-      padding-left: 14px;
-    }
-    .navbar-form{
-      margin-left: 12px;
-    }
-  }
+}
 
   
 /* Content Section */
