@@ -28,8 +28,10 @@ html{
   padding-top: .75rem;
   padding-bottom: .75rem;
   max-width: 700px;
-
   background-color: #111111;
+}
+.navbar-brand{
+  padding-left: 14px;
 }
  .navbar-toggler{
   outline: none;
@@ -79,9 +81,21 @@ html{
 
 /* Media queries */
 @media only screen and (max-width: 768px) {
+  .nav-link{
+    padding-left: 14px;
+  }
+  .navbar-form{
+    margin-left: 12px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  .nav-link{
+    padding-left: 14px;
+  }
+  .navbar-form{
+    margin-left: 12px;
+  }
 }
 /* End of NavBar */
 
