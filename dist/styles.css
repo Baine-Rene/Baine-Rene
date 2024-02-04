@@ -11,7 +11,6 @@ body{
   src: url('../fonts/germania-one/GermaniaOne-Regular.ttf')
 }
 
-
 a{
     text-decoration:none;
     color: white;
@@ -52,7 +51,7 @@ html{
 
 .nav-link{
   color: #adadad;
-  font-family: 'inter'; 
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
 }
@@ -61,7 +60,7 @@ html{
 }
 .navbar-form{
   color: white;
-  font-family: 'germania'; 
+  font-family: 'Germania One', system-ui;
 }
 .navbar .btn{
   transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
@@ -105,13 +104,13 @@ html{
 }
 .content h2{
   color: white;
-  font-family: 'germania';
+  font-family: 'Germania One', system-ui;
   font-size: 60px;
 }
 
 .content p{
   color: #fff;
-  font-family: 'inter'; 
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
 }
 .content .flex-row{
@@ -143,7 +142,7 @@ html{
   margin-bottom: 14px; 
 }
 .blog-title{
-  font-family: 'inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #ffffff;
 }
@@ -168,7 +167,7 @@ border-radius: 8px;
         margin-right: 25px;
         align-self: center; } }
   .blog-post-archive .blog-post-title {
-    font-family: 'inter';
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.25;
@@ -176,7 +175,7 @@ border-radius: 8px;
     margin-bottom: 14px; 
   }
   .blog-post-archive .blog-post-excerpt {
-    font-family: 'inter';
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -188,7 +187,7 @@ border-radius: 8px;
       font-weight: 600;
       background-color:white;
       color:#000000; 
-      font-family: 'inter';
+      font-family: 'Inter', sans-serif;
   }
 
   .blog-post-archive .btn::after {

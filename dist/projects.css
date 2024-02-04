@@ -12,6 +12,7 @@ body{
   }
   
   
+  
   a{
       text-decoration:none;
       color: white;
@@ -52,7 +53,7 @@ body{
 
 .nav-link{
   color: #adadad;
-  font-family: 'inter'; 
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
 }
@@ -61,7 +62,7 @@ body{
 }
 .navbar-form{
   color: white;
-  font-family: 'germania'; 
+  font-family: 'Germania One', system-ui;
 }
 .navbar .btn{
   transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
@@ -105,13 +106,13 @@ body{
   }
   .content h2{
     color: white;
-    font-family: 'germania';
+    font-family: 'Germania One', system-ui;
     font-size: 60px;
   }
   
   .content p{
     color: #fff;
-    font-family: 'inter'; 
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
   }
   .content .flex-row{

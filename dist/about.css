@@ -52,7 +52,7 @@ body{
 
 .nav-link{
   color: #adadad;
-  font-family: 'inter'; 
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
 }
@@ -61,7 +61,7 @@ body{
 }
 .navbar-form{
   color: white;
-  font-family: 'germania'; 
+  font-family: 'Germania One', system-ui;
 }
 .navbar .btn{
   transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
@@ -106,13 +106,13 @@ body{
   }
   .content h2{
     color: white;
-    font-family: 'germania';
+    font-family: 'Germania One', system-ui;
     font-size: 60px;
   }
   
   .content p{
     color: #fff;
-    font-family: 'inter'; 
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
   }
   .content .flex-row{
@@ -138,7 +138,7 @@ body{
   }
 
   .about-title{
-    font-family: 'germania';
+    font-family: 'Germania One', system-ui;
     font-weight: 600;
     font-size: 40px;
     color: #ffffff;
@@ -165,7 +165,7 @@ body{
           margin-right: 25px;
           align-self: center; } }
     .about-post-archive .about-post-title {
-      font-family: 'inter';
+      font-family: 'Inter', sans-serif;
       font-size: 20px;
       font-weight: 700;
       line-height: 1.25;
@@ -173,7 +173,7 @@ body{
       margin-bottom: 14px; 
     }
  .about-post-excerpt {
-      font-family: 'inter';
+  font-family: 'Inter', sans-serif;
       font-size: 14px;
       font-weight: 600;
       line-height: 1.71;
@@ -182,7 +182,7 @@ body{
     }
     .about-post-archive  .about-post-link {
       font-size: 15px;
-      font-family: 'inter';
+      font-family: 'Inter', sans-serif;
       font-weight: 700;
       color: #ffffff; 
     }
@@ -198,13 +198,13 @@ body{
         padding-top: 15px;
     }
     .connect-excerpt{
-        font-family: 'inter';
+      font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 14px;
         color: #adadad;
     }
     .connect-title{
-        font-family: 'germania';
+      font-family: 'Germania One', system-ui;
         font-weight: 400;
         font-size: 18px;
         color: white;
@@ -219,12 +219,12 @@ body{
         
     }
     .social-bg a{
-        font-family: 'inter';
+      font-family: 'Inter', sans-serif;
         font-weight: 500;
         
     }
     .btn a:hover{
-        font-family: 'inter';
+      font-family: 'Inter', sans-serif;
         font-weight: 500;
         color: #adadad;
     }
