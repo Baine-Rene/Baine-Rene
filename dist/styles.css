@@ -95,6 +95,26 @@ html{
   }
 }
 
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .nav-link{
+    padding-left: 14px;
+  }
+  .navbar-form{
+    margin-left: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-link{
+    padding-left: 14px;
+  }
+  .navbar-form{
+    margin-left: 12px;
+  }
+}
+
 /* Content Section */
 .content{
   max-width: 700px;

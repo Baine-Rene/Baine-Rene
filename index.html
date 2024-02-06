@@ -15,48 +15,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Inter&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logo_1.svg" type="image/x-icon">
 
     <!-- style sheets -->
     <link rel="stylesheet" href="./lib/vendors/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./Assets/animate.css/animate.min.css">
     <link rel="stylesheet" href="./Assets/Bootstrap/css/bootstrap.min.css">
+    
     <link href="dist/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="./dist/styles.css">
    
+    <link href="./Assets/glightbox/css/glightbox.css" rel="stylesheet">
 
 </head>
 <body>
 
-<!-- Navigation -->
-<header class="relative">
-  <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
-      <a class="navbar-brand" href="index.html">
-        <img src="./img/favicon.svg" width="50" height="50" alt="Logo">
-      </a>
-      <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
-        <span class="hamburger-box">
-          <span class="hamburger-inner">
-          </span>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav d-flex mx-auto  gap-1">
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./blog.html">Blog</a>
-          </li>
-        </ul>
-        <a class=" btn navbar-form my-3" href="mailto:baineux.ui@gmail.com" target="_blank">Contact <span class=""></span></a>
-      </div>
-    </div>
-  </nav>
-</header>
+    <!-- Navigation -->
+    <header class="relative">
+      <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo_1.svg" width="30" height="30" alt="Logo">
+          </a>
+          <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
+            <span class="hamburger-box">
+              <span class="hamburger-inner">
+              </span>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav d-flex mx-auto  gap-1">
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+            </ul>
+            <a class=" btn navbar-form my-3" href="mailto:baineux.ui@gmail.com" target="_blank">Contact <span class=""></span></a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
 <!-- Content Section -->
 <section class="content mx-auto" >
@@ -76,10 +78,10 @@
 <main class="blog-page-wrapper" >
 <section class="blog mx-auto">
   <div class="container">
-      <h5 class="mb-5 blog-title">Blog Posts</h5>
+      <h5 class="mb-5 blog-title wow fadeInUp" data-wow-delay="0.2s">Blog Posts</h5>
     <div class="row">
       <div class="col-lg-10 blog-post-archive">
-      <article class="media blog-post wow fadeInUp">
+      <article class="media blog-post wow fadeInUp" data-wow-delay="0.5s">
        <img src="./img/Blog/Blog-Standard(1).svg" alt="blog post" class="blog-post-thumbnail">
          <div class="media-body">
         <h5 class="blog-post-title">The incredible Digital artworks by the incredible Sam Spratt.</h5>
