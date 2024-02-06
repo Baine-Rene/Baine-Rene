@@ -195,7 +195,7 @@ body{
     margin-bottom: 16px;
     color: #fff;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
  }
   
   .blog-post-single .blog-post-wrapper .post-content p {
@@ -267,6 +267,7 @@ body{
   min-height: 315px; 
 
 }
+
 }
 .blog-link{
   color: #adadad;
