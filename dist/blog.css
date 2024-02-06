@@ -268,7 +268,16 @@ body{
 
 }
 }
-
+.blog-link{
+  color: #adadad;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+.blog-link:hover{
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
     .all-posts a{
       font-family: 'Inter', sans-serif;
       font-weight: 700;
