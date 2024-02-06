@@ -269,12 +269,12 @@ body{
 }
 
 }
-.blog-link{
+.source-link{
   color: #adadad;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
 }
-.blog-link:hover{
+.source-link:hover{
   color: #ffffff;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
