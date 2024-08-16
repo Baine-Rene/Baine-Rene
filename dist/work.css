@@ -53,7 +53,7 @@ body{
 .nav-link{
   color: #adadad;
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
 }
 .nav-link:hover{
@@ -61,7 +61,7 @@ body{
 }
 .navbar-form{
   color: white;
-  font-family: 'Germania One', system-ui;
+  font-family: 'Lilita One', system-ui;
 }
 .navbar .btn{
   transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
@@ -119,8 +119,8 @@ body{
     }
     .blog-standard .blog-post .post-title {
       font-size: 30px;
-      font-family: 'Inter', sans-serif;
-      font-weight: 700;
+      font-family: 'Lilita One', sans-serif;
+      font-weight: 200;
       line-height: 1.4;
       margin-bottom: 9px;
       color: #fff;
@@ -163,19 +163,14 @@ body{
 .post-header img{
     border-radius: 8px;
 }
-.blog-post iframe{
-  width: 620px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-}
+
 .blog-post-single .post-title {
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 200;
     color: #fff;
     margin-bottom: 30px;
     margin-top: 30px;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'lilita one', sans-serif; 
 }
 .post-date{
     color: #adadad;

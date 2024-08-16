@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Rene Baine</title>
+    <title>Blogs | Rene Baine</title>
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -12,18 +12,17 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Inter&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Inter&display=swap" rel="stylesheet">
+    
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./img/logo_1.svg" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.svg" type="image/x-icon">
 
     <!-- style sheets -->
     <link rel="stylesheet" href="./lib/vendors/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./Assets/animate.css/animate.min.css">
     <link rel="stylesheet" href="./Assets/Bootstrap/css/bootstrap.min.css">
     <link href="dist/hamburgers.css" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/projects.css">
-   
+    <link rel="stylesheet" href="./dist/work.css">
 
 </head>
 <body>
@@ -31,7 +30,7 @@
     <header class="relative">
       <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
           <a class="navbar-brand" href="index.html">
-            <img src="./img/logo_1.svg" width="30" height="30" alt="Logo">
+            <img src="./img/header_icon.svg" width="30" height="30" alt="Logo">
           </a>
           <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
             <span class="hamburger-box">
@@ -45,10 +44,7 @@
                 <a class="nav-link" href="./about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blog.html">Blog</a>
+                <a class="nav-link" href="./work.html">Work</a>
               </li>
             </ul>
             <a class=" btn navbar-form my-3" href="mailto:baineux.ui@gmail.com" target="_blank">Contact <span class=""></span></a>
@@ -57,17 +53,24 @@
       </nav>
     </header>
 
-<!-- Content Section -->
-<section class="content mx-auto" >
-    <div class="container my-5">
-        <div class=" flex justify-content-start">
-            <div class="col-lg-10">
-                <h2 class="wow fadeInUp">More Information Coming Soon.</h2>
-                <p class="wow fadeInUp" data-wow-delay="0.2s">Check back soon for updates on my current projects and insights into my work process. More information will be available shortly.</p>
-            </div>
+      <main class="blog-standard">
+        <section class="blog-standard-post mx-auto">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-12">
+                        <article class="blog-post">
+                            <img src="./img/Blog/YoungEye_Banner.svg" alt="blog post" class="post-thumbnail wow fadeInUp" data-wow-delay="0.1s">
+                            <p class="post-date wow fadeIn" data-wow-delay="0.6s">July 16, 2024</p>
+                            <h1 class="post-title wow fadeInUp" data-wow-delay="0.3s">The YoungEye Foudnation Celebrating 5 Years</h1>
+                            <p class="post-excerpt wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi obcaecati distinctio modi, quam aliquam rem, ratione omnis accusamus corrupti voluptas quia, harum eos? Ipsum laudantium quam ducimus. Odio itaque voluptatibus eius totam, sunt beatae?</p>
+                            <a href="./youngeye.html" class="btn ">Read More</a>
+                        </article>
+
+                    </div>
+                </div>
         </div>
-    </div>
-  </section>
+    </section>
+    </main>
 
 <!-- JavaScript Libraries -->
 <script src="./Assets/jquery/jquery.js"></script>

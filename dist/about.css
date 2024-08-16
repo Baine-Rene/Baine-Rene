@@ -53,7 +53,7 @@ body{
 .nav-link{
   color: #adadad;
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
 }
 .nav-link:hover{
@@ -61,7 +61,7 @@ body{
 }
 .navbar-form{
   color: white;
-  font-family: 'Germania One', system-ui;
+  font-family: 'Lilita One', system-ui;
 }
 .navbar .btn{
   transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
@@ -106,7 +106,7 @@ body{
   }
   .content h2{
     color: white;
-    font-family: 'Germania One', system-ui;
+    font-family: 'Lilita One', system-ui;
     font-size: 60px;
   }
   
@@ -125,6 +125,7 @@ body{
     font-size: 13px;
   }
 
+
   /* About Section */
 .about{
     max-width: 700px;
@@ -138,8 +139,8 @@ body{
   }
 
   .about-title{
-    font-family: 'Germania One', system-ui;
-    font-weight: 600;
+    font-family: 'Lilita One', system-ui;
+    font-weight: 500;
     font-size: 40px;
     color: #ffffff;
   }
@@ -200,13 +201,22 @@ body{
     .connect-excerpt{
       font-family: 'Inter', sans-serif;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 15px;
         color: #adadad;
     }
+    .experience .btn{
+      background-color: #fff;
+    }
+    .connect-experience{
+      font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        
+    }
     .connect-title{
-      font-family: 'Germania One', system-ui;
-        font-weight: 400;
-        font-size: 18px;
+      font-family: 'Lilita One', system-ui;
+        font-weight: 200;
+        font-size: 22px;
         color: white;
     }
 

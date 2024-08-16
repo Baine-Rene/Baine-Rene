@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Rene Baine</title>
+    <title>Rene Baine - Home</title>
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -12,10 +12,10 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Inter&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./img/logo_1.svg" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.svg" type="image/x-icon">
 
     <!-- style sheets -->
     <link rel="stylesheet" href="./lib/vendors/swiper/swiper-bundle.min.css">
@@ -25,16 +25,16 @@
     <link href="dist/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="./dist/styles.css">
    
-    <link href="./Assets/glightbox/css/glightbox.css" rel="stylesheet">
+    <link href="./Assets/glightboGraphicsightbox.css" rel="stylesheet">
 
 </head>
 <body>
 
     <!-- Navigation -->
-    <header class="relative">
+    <header>
       <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
           <a class="navbar-brand" href="index.html">
-            <img src="./img/logo_1.svg" width="30" height="30" alt="Logo">
+            <img src="./img/favicon.svg" width="30" height="30" alt="Logo">
           </a>
           <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
             <span class="hamburger-box">
@@ -48,74 +48,56 @@
                 <a class="nav-link" href="./about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blog.html">Blog</a>
+                <a class="nav-link" href="./work.html">Work</a>
               </li>
             </ul>
             <a class=" btn navbar-form my-3" href="mailto:baineux.ui@gmail.com" target="_blank">Contact <span class=""></span></a>
           </div>
         </div>
       </nav>
-    </header>
+</header>
 
 <!-- Content Section -->
+ <main>
 <section class="content mx-auto" >
   <div class="container my-5">
       <div class=" flex justify-content-start">
           <div class="col-lg-10">
-              <h2 class="wow fadeInUp">Rene Baine</h2>
-              <p class="wow fadeInUp" data-wow-delay="0.2s">Hello, I'm Rene Baine. I'm a designer who's also diving into web development. My passion lies in bringing my designs to life online. Join me as I explore the intersection of design and coding, aiming to create functional and visually appealing digital experiences.</p>
-              
+              <h1 class="wow fadeInUp">Rene Baine</h1>
+              <p class="wow fadeInUp lh-lg " data-wow-delay="0.2s">Hello, I'm Rene Baine. I'm a designer who's also diving into web development. My passion lies in bringing my designs to life online. Join me as I explore the intersection of design and coding, aiming to create functional and visually appealing digital experiences.</p>
           </div>
-          <a href="#" class="email wow fadeIn" data-wow-delay="0.7s"><i class="bi bi-arrow-up-right"></i> Email Me</a>
+          <div class="">
+          <a href="https://www.linkedin.com/in/rene-baine-9b6519319/" class="btn email wow fadeIn" role="button" data-wow-delay="0.7s">LinkedIn <i class="bi bi-arrow-up-right"></i> </a>
+
+          <a href="https://www.instagram.com/baine_dsgn/" class="btn email wow fadeIn"  role="button" data-wow-delay="0.7s">Instagram <i class="bi bi-arrow-up-right"></i></a>
+
+          <a href="#" class="btn email wow fadeIn"  role="button" data-wow-delay="0.7s">Email Me <i class="bi bi-arrow-up-right"></i> </a>
+        </div>
       </div>
   </div>
 </section>
+</main>
 
-<!-- Blog Posts -->
-<main class="blog-page-wrapper" >
-<section class="blog mx-auto">
+<!-- Work Posts -->
+<main class="work-page-wrapper" >
+<section class="work mx-auto">
   <div class="container">
-      <h5 class="mb-5 blog-title wow fadeInUp" data-wow-delay="0.2s">Blog Posts</h5>
+      <h5 class="mb-5 work-title wow fadeInUp" data-wow-delay="0.2s">Recent Project</h5>
     <div class="row">
-      <div class="col-lg-10 blog-post-archive">
-      <article class="media blog-post wow fadeInUp" data-wow-delay="0.5s">
-       <img src="./img/Blog/Blog-Standard(1).svg" alt="blog post" class="blog-post-thumbnail">
+      <div class="col-lg-10 work-post-archive">
+      <article class="media work-post wow fadeInUp" data-wow-delay="0.5s">
+       <img src="./img/Blog/YoungEye.svg" alt="blog post" class="work-post-thumbnail">
          <div class="media-body">
-        <h5 class="blog-post-title">Digital Reverie: The Mesmerizing Art of Sam Spratt</h5>
-        <p class="blog-post-excerpt">Sam Spratt, an artist based in New York City, operates from his studio in the heart of the city. His artistic mission revolves around capturing human experiences, encompassing our struggles, epiphanies, and efforts to connect within a collective reality.</p>
-        <a href="SamSpratt.html" class="btn blog-post-link">Read more</a>
+        <h5 class="work-post-title">The YoungEye Foundation</h5>
+        <p class="work-post-excerpt">The Young Eye Foundation is a non-profit organization, located in Kampala, Uganda.The foundation was created support and contribute to the development of youth communities throughout the country.</p>
+        <a href="youngeye.html" class="btn work-post-link" role="button">Read more</a>
     </div>
     </article>
-
-    <!--  
-    <article class="media blog-post wow fadeInUp">
-      <img src="./img/Blog/Lofi-girl.svg" alt="blog post" class="blog-post-thumbnail">
-        <div class="media-body">
-       <h5 class="blog-post-title">Why should you Listen to Lofi Hip-Hop ?</h5>
-       <p class="blog-post-excerpt">Lo-fi hip-hop originated within the underground beatmaking hip-hop scene of the 2000s, particularly after the advent of Roland SP-303 and Roland SP-404 samplers, each of which featured the "lo-fi" effect as a separate button.</p>
-       <a href="./Lofi-Girl.html" class="btn blog-post-link">Read more</a>
-   </div>
-   </article>
-   <article class="media blog-post wow fadeInUp">
-    <img src="./img/Blog/Nujabes.svg" alt="blog post" class="blog-post-thumbnail">
-      <div class="media-body">
-     <h5 class="blog-post-title">Nujabes, The "godfather of Lofi hip hop"</h5>
-     <p class="blog-post-excerpt">Jun Seba, better known by his stage name Nujabes, was a Japanese record producer, audio engineer, DJ, composer and arranger best known for his atmospheric instrumental mixes sampling from hip hop, soul, and jazz.</p>
-     <a href="./Nujabes.html" class="btn blog-post-link">Read more</a>
-    </div>
- </article>
-  -->
-
   </div>
 </div>
 </div>
 </section>
 </main>
-
-
 
 <!-- JavaScript Libraries -->
 <script src="./Assets/jquery/jquery.js"></script>
@@ -123,12 +105,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="./Assets/glightbox/js/glightbox.js"></script>
 <script src="./Assets/wowjs/wow.min.js"></script>
-
 <script src="./JS/main.js"></script>
-
 
     <script>
           new WOW().init();
     </script>
+    
 </body>
 </html>
