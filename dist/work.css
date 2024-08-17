@@ -102,7 +102,8 @@ body{
     padding-top: 50px;
 }
   .blog-standard .blog-post {
-    margin-bottom: 38px; }
+    margin-bottom: 38px;
+   }
 
     .blog-standard .blog-post .post-thumbnail {
       width: 100%;
@@ -132,7 +133,7 @@ body{
       font-weight: 500;
       line-height: 1.71;
       margin-bottom: 15px; 
-      color: #fff;
+      color: #b4b4b4;
     }
     .blog-standard .blog-post .btn {
       font-size: 14px;
@@ -198,7 +199,7 @@ body{
     font-weight: 300;
     line-height: 1.71;
     margin-bottom: 16px;
-    color: #fff;
+    color: #b4b4b4;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
  }

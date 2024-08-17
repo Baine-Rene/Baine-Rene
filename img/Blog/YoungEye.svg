@@ -1,8 +1,11 @@
 <svg width="2048" height="2024" viewBox="0 0 2048 2024" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_366_73)">
-<rect width="2048" height="2024" fill="#215733"/>
+<rect width="2048" height="2024" fill="#B55024"/>
+<circle cx="824" cy="1012" r="400" fill="#7BF1A2"/>
+<circle cx="1224" cy="1012" r="400" fill="#348850"/>
+<circle cx="1024" cy="1012" r="400" fill="#215733"/>
 <rect width="2048" height="2024" fill="url(#pattern0_366_73)" style="mix-blend-mode:multiply"/>
-<rect x="774" y="709" width="500" height="606.481" fill="url(#pattern1_366_73)"/>
+<rect x="798" y="753" width="420" height="509.444" fill="url(#pattern1_366_73)"/>
 </g>
 <defs>
 <pattern id="pattern0_366_73" patternContentUnits="objectBoundingBox" width="0.527344" height="0.533597">
