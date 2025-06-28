@@ -19,17 +19,17 @@
 ###
 
 <div align="left">
-  <img src="https://developer.mozilla.org/en-US/docs/Web/JavaScript" height="40" alt="javascript logo"  />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://www.typescriptlang.org/" height="40" alt="typescript logo"  />
+  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo"  />
   <img width="12" />
-  <img src="https://tailwindcss.com/" height="40" alt="tailwindcss logo"  />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo"  />
   <img width="12" />
-  <img src="https://react.dev/" height="40" alt="react logo"  />
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
   <img width="12" />
-  <img src="https://nextjs.org/" height="40" alt="nextjs logo"  />
+  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo"  />
   <img width="12" />
-  <img src="https://developer.mozilla.org/en-US/docs/Web/CSS" height="40" alt="css3 logo"  />
+  <img src="[https://skillicons.dev/icons?i=css](https://developer.mozilla.org/en-US/docs/Web/CSS)" height="40" alt="css3 logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
   <img width="12" />
@@ -43,7 +43,6 @@
 </div>
 
 ###
-
 <!--
 **Baine-Rene/Baine-Rene** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
