@@ -6,6 +6,12 @@
   
 - 📫 How to reach me **renebaine13@gmail.com**
 
+- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Baine-Rene/Baine-Rene/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Baine-Rene/Baine-Rene/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Baine-Rene/Baine-Rene/output/pacman-contribution-graph.svg">
+</picture>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/rene_baine" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rene_baine" height="30" width="40" /></a>
