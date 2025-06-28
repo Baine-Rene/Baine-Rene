@@ -1,8 +1,9 @@
-<h1 align="center">Hi 👋, I'm Rene Baine</h1>
-<h3 align="center">An Apisiring fullstack developer</h3>
+<h1>Hi 👋, I'm Rene Baine</h1>
+<h2>A second year computer science student at <a href="https://www.trentu.ca/">Trent University</a></h2>
+<h3>An Apisiring fullstack developer</h3>
 
 - 🌱 I’m currently learning **React.js, Next.JS and Tailwindcss**
-
+  
 - 📫 How to reach me **renebaine13@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
