@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">I'm an aspiring full-stack developer from Uganda. <br>I'm a second-year student at Trent University, Peterborough Ontario.</p>
+<p align="left">I'm an aspiring full-stack developer from Uganda. <br>I'm a second-year student at Trent University, Peterborough Ontario.<br><br>I'm currently working as a graphic design for the startup I Co-founded, IWIP.</p>
 
 ###
 
@@ -40,6 +40,21 @@
   <img src="https://skillicons.dev/icons?i=ps" height="40" alt="adobephotoshop logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo"  />
+</div>
+
+###
+
+<h2 align="left">Let's Connect</h2>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/ren%C3%A9-baine-9b6519319/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="renebaine@overtypestudio.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  </a>
 </div>
 
 ###
