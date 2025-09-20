@@ -38,10 +38,6 @@
 </div>
 
 ###
-
-<h2 align="left">Let's Connect</h2>
-
-###
 ###
 <!--
 **Baine-Rene/Baine-Rene** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
