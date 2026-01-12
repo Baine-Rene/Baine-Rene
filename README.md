@@ -1,8 +1,8 @@
-<h1 align="left">Hi 👋, I'm Rene Baine</h1>
+<h1 align="left">Hi, I'm Rene Baine</h1>
 
 ###
 
-<p align="left">I'm an aspiring full-stack developer from Uganda. <br>I'm a second-year student at Trent University, Peterborough Ontario.<br><br>I'm currently working as a graphic design for the startup I Co-founded, IWIP.</p>
+<p align="left">I'm an aspiring full-stack developer from Uganda. <br>I'm a second-year student at Trent University, Peterborough, Ontario.<br><br>I'm currently working as a graphic designer for the startup I co-founded, IWIP </p>
 
 ###
 
