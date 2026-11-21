@@ -5,5 +5,6 @@ Third-year CSE student at Trent University. I like building web apps that solve 
 ### Things I've built
 **[IWIP App](https://www.iwip.app/)**: Designed and built a website that helps potential users understand and download this digital business card.
 
+### Right now
+Working on a project that tracks patients' heart rates; currently looking for a software engineering role for summer 2027
 
-## 
